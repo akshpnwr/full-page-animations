@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.chair {
+  height: 60%;
+  position: absolute;
+  top: 70%;
+  left: 70%;
+  transform: translate(-70%, -70%);
+}
+
+.s1 {
+  background: url(./img/couch.jpg);
+  background-size: cover;
+}
+
+.section h1 {
+  font-size: 3rem;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  background: linear-gradient(to left, #87c7df, #648896);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.s2 {
+  background: linear-gradient(to left, rgb(202, 202, 202), white);
+}
+
+.s2 h1 {
+  font-size: 2rem;
+  background: linear-gradient(to left, #252525, #727272);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.description {
+  margin: 20%;
+  width: 50%;
+  font-size: 24px;
+  margin-left: 2em;
+}
+
+.description p {
+  margin: 50px 0;
+}
